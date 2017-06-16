@@ -15,12 +15,6 @@ Feature: An audience member visits www.bbc.co.uk/news and successfully provides 
     Examples:
       | UserName                  | Password    | comment                                            |
       | rakeshnambiar.c@gmail.com | Password_01 | This is a string Test comment                      |
-#      | rakeshnambiar.c@gmail.com | Password_01 | This is a string comment with @Specialchar         |
-#      | rakeshnambiar.c@gmail.com | Password_01 | $%#$%$^#%^%$^$%^$%                                 |
-#      | rakeshnambiar.c@gmail.com | Password_01 | 3432434234324324324                                |
-#      | rakeshnambiar.c@gmail.com | Password_01 | 4545$%$%#$%sdfgfgfgfg                              |
-#      | rakeshnambiar.c@gmail.com | Password_01 | https://www.youtube.com/watch?v=4yT7YPxU6C8&t=603s |
-
 
   @TC02_BCC_CommentTest
   Scenario: To verify the comments can't be posted without sign-in to the website
